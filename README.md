@@ -11,6 +11,7 @@ It’s time for you to create a basic computer graphics project. So long will he
 
 ## 📷 Preview
 ![preview](imgs/preview.png)
+>The capybara (Hydrochaeris hydrochaeris), also called capybara, is a small herbivorous mammal belonging to the order of rodents and the family of cavidae. It measures more than a meter long and weighs more than 50 kg. Males weigh between 10 and 15 kg less than females.
 
 ## 🚀 Getting Started
 
