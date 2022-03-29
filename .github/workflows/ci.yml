@@ -10,11 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+    - name: Setup Python
     - uses: actions/setup-python@v3
-    - name: Norminette
-      continue-on-error: true
-      run: |
-        pip3 install Norminette
-        norminette libft srcs/*.c incs/*.h
-        norminette --version
+    - name: Setup Norminette
+    - run: pip3 install Norminette
+    - name: Run Norminette
+    - run: norminette libft/ srcs/ incs/
