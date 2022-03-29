@@ -6,7 +6,7 @@
 /*   By: rpinto-r <marvin@42lausanne.ch>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 16:40:03 by rpinto-r          #+#    #+#             */
-/*   Updated: 2022/03/29 04:44:04 by rpinto-r         ###   ########.fr       */
+/*   Updated: 2022/03/29 17:14:22 by rpinto-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	game_exit(t_game *game)
 	{
 		if (!game->window)
 			mlx_destroy_window(game->mlx, game->window);
-		map_free(game);	
+		map_free(game);
 	}
 	exit(0);
 }
