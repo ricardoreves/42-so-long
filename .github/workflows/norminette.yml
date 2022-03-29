@@ -1,4 +1,4 @@
-name: norminette
+name: norminette3
 
 on:
   push:
